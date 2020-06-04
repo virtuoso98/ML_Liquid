@@ -1,0 +1,27 @@
+﻿Name,ε,V(cm3/mol),Miscibility (with water),Miscibility (with methanol),Miscibility (with cyclohexane)
+Acetic Acid,6.2,171,1,1,1
+Acetone,21.01,213,1,1,1
+Acetonitrile,36.64,173,1,1,0
+Benzene,2.2825,256,0,1,1
+1-Butanol,17.84,274,0,1,1
+Carbon Tetrachloride,2.2379,276,0,1,1
+Chloroform,4.8069,239,0,1,1
+Cyclohexane,2.0243,308,0,0,None
+"1,1-Dichloroethane",10.1,236,0,1,1
+Diethyl Ether,4.2666,281,0,1,1
+Diisopropyl Ether,3.805,386,0,1,1
+Dimethylformamide,38.25,262,1,1,0
+"1,4-Dioxane",2.2189,238,1,1,1
+Ethanol,25.3,168,1,1,1
+Ethyl Acetate,6.0814,286,0,1,1
+Heptane,1.9209,428,0,0,1
+Hexane,1.8865,368,0,0,1
+Isooctane,1.943,468,0,0,1
+Methanol,33,117,1,None,0
+Methyl Ethyl Ketone (2-Butanone),18.56,267,0,1,1
+Pentane,1.8371,311,0,0,1
+1-Propanol,20.8,218,1,1,1
+Tetrahydrofuran,7.52,224,1,1,1
+Toluene,2.379,316,0,1,1
+Water,80.1,56,None,1,0
+o-Xylene,2.562,370,0,1,1
