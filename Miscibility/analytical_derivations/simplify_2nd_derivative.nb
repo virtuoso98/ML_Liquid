@@ -1,0 +1,179 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 12.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      5607,        169]
+NotebookOptionsPosition[      5093,        152]
+NotebookOutlinePosition[      5432,        167]
+CellTagsIndexPosition[      5389,        164]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{"\[IndentingNewLine]", 
+  RowBox[{
+   RowBox[{"d2fd\[Phi]2", " ", "=", " ", 
+    RowBox[{"FullSimplify", "[", 
+     RowBox[{
+      RowBox[{
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{
+          RowBox[{"(", 
+           RowBox[{"ya", "-", "yb"}], ")"}], 
+          RowBox[{"(", 
+           RowBox[{
+            FractionBox["1", 
+             RowBox[{"y", 
+              RowBox[{"(", 
+               RowBox[{"y", "+", "1"}], ")"}]}]], "-", 
+            FractionBox[
+             RowBox[{"Log", "[", 
+              RowBox[{"1", "+", "y"}], "]"}], 
+             SuperscriptBox["y", "2"]]}], ")"}], 
+          RowBox[{"(", 
+           RowBox[{
+            FractionBox["ya", "va"], "-", 
+            FractionBox["yb", "vb"]}], ")"}]}], " ", "+", " ", 
+         RowBox[{
+          FractionBox["1", "2"], 
+          SuperscriptBox[
+           RowBox[{"(", 
+            RowBox[{"ya", "-", "yb"}], ")"}], "2"], " ", 
+          RowBox[{"(", 
+           RowBox[{
+            FractionBox[
+             RowBox[{"2", 
+              RowBox[{"Log", "[", 
+               RowBox[{"1", "+", "y"}], "]"}]}], 
+             SuperscriptBox["y", "3"]], "-", 
+            FractionBox[
+             RowBox[{"2", "+", 
+              RowBox[{"3", " ", "y"}]}], 
+             SuperscriptBox[
+              RowBox[{"(", 
+               RowBox[{"y", "+", 
+                SuperscriptBox["y", "2"]}], ")"}], "2"]]}], ")"}], 
+          RowBox[{"(", 
+           RowBox[{
+            RowBox[{"\[Phi]", 
+             FractionBox["ya", "va"]}], "+", 
+            RowBox[{
+             RowBox[{"(", 
+              RowBox[{"1", "-", "\[Phi]"}], ")"}], 
+             FractionBox["yb", "vb"]}]}], ")"}]}], "+", 
+         FractionBox["1", 
+          RowBox[{"va", " ", "\[Phi]"}]], "+", 
+         FractionBox["1", 
+          RowBox[{"vb", 
+           RowBox[{"(", 
+            RowBox[{"1", "-", "\[Phi]"}], ")"}]}]]}], ")"}], "/.", 
+       RowBox[{"{", 
+        RowBox[{"y", "\[Rule]", " ", 
+         RowBox[{
+          RowBox[{"\[Phi]", " ", "ya"}], " ", "+", " ", 
+          RowBox[{
+           RowBox[{"(", 
+            RowBox[{"1", "-", "\[Phi]"}], ")"}], " ", "yb"}]}]}], "}"}]}], "/.", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"vb", "\[Rule]", " ", "v"}], ",", " ", 
+        RowBox[{"va", "\[Rule]", " ", "v"}]}], "}"}]}], "]"}]}], 
+   "\[IndentingNewLine]", 
+   RowBox[{"(*", " ", 
+    RowBox[{
+    "The", " ", "last", " ", "line", " ", "with", " ", "arrows", " ", "are", 
+     " ", "substitution", " ", "steps"}], " ", "*)"}], "\[IndentingNewLine]", 
+   
+   RowBox[{"(*", " ", 
+    RowBox[{
+     RowBox[{
+      RowBox[{"I", " ", "have", " ", "set", " ", "\[Phi]"}], "=", "\[Phi]a"}],
+      ",", " ", 
+     RowBox[{
+      RowBox[{"1", "-", "\[Phi]"}], "=", "\[Phi]b"}]}], " ", "*)"}], 
+   "\[IndentingNewLine]"}]}]], "Input",
+ CellChangeTimes->{{3.798857745212083*^9, 3.7988577574249687`*^9}, {
+   3.798857825712122*^9, 3.798858121310548*^9}, {3.7988582207244987`*^9, 
+   3.7988582355154333`*^9}, {3.7988584848071327`*^9, 
+   3.7988585502643948`*^9}, {3.79885862834975*^9, 3.7988586503152647`*^9}, 
+   3.798858688358382*^9},
+ CellLabel->"In[19]:=",ExpressionUUID->"9b17eddd-b648-4492-b550-86a6ad95e0f0"],
+
+Cell[BoxData[
+ RowBox[{"-", 
+  FractionBox[
+   RowBox[{
+    FractionBox["2", 
+     RowBox[{
+      RowBox[{"-", "1"}], "+", "\[Phi]"}]], "-", 
+    FractionBox["2", "\[Phi]"], "+", 
+    FractionBox[
+     SuperscriptBox[
+      RowBox[{"(", 
+       RowBox[{"ya", "-", "yb"}], ")"}], "2"], 
+     SuperscriptBox[
+      RowBox[{"(", 
+       RowBox[{"1", "+", "yb", "+", 
+        RowBox[{"ya", " ", "\[Phi]"}], "-", 
+        RowBox[{"yb", " ", "\[Phi]"}]}], ")"}], "2"]]}], 
+   RowBox[{"2", " ", "v"}]]}]], "Output",
+ CellChangeTimes->{{3.798858514978264*^9, 3.798858553827482*^9}, {
+  3.79885865097262*^9, 3.798858653539373*^9}, {3.798858689494605*^9, 
+  3.7988587063007193`*^9}},
+ CellLabel->"Out[19]=",ExpressionUUID->"c9bc9f38-3999-4483-815e-a774e73532de"]
+}, Open  ]],
+
+Cell[BoxData[
+ RowBox[{"(*", " ", 
+  RowBox[{
+   RowBox[{
+   "This", " ", "last", " ", "line", " ", "now", " ", "looks", " ", "simple", 
+    " ", 
+    RowBox[{"enough", " ", "--"}], " ", "can", " ", "we", " ", "tell", " ", 
+    "when", " ", 
+    RowBox[{"d2f", "/", "d\[Phi]2"}]}], " ", "=", " ", 
+   RowBox[{"0", " ", "has", " ", "a", " ", 
+    RowBox[{"solution", "?"}]}]}], " ", "*)"}]], "Input",
+ CellChangeTimes->{{3.798858658202516*^9, 
+  3.798858703418345*^9}},ExpressionUUID->"843d2a6f-a4f1-4e30-b978-\
+ba94ea138080"]
+},
+WindowSize->{808, 701},
+WindowMargins->{{189, Automatic}, {-46, Automatic}},
+FrontEndVersion->"12.0 for Mac OS X x86 (64-bit) (April 8, 2019)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 3214, 89, 274, "Input",ExpressionUUID->"9b17eddd-b648-4492-b550-86a6ad95e0f0"],
+Cell[3797, 113, 752, 21, 64, "Output",ExpressionUUID->"c9bc9f38-3999-4483-815e-a774e73532de"]
+}, Open  ]],
+Cell[4564, 137, 525, 13, 52, "Input",ExpressionUUID->"843d2a6f-a4f1-4e30-b978-ba94ea138080"]
+}
+]
+*)
+
+(* End of internal cache information *)
+
